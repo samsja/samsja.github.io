@@ -9,6 +9,7 @@ packages = [{include = "my_blog_post"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 mkdocs-material = "^9.1.14"
+mkdocs-glightbox = "^0.3.4"
 
 
 [build-system]

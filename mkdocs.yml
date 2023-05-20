@@ -1,11 +1,14 @@
 site_name: Samsja 
 theme:
+  logo: assets/logo.png
+  favicon: assets/logo.png
   name: material
+ 
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+  
   palette:
-
     # Palette toggle for light mode
     - scheme: default
       toggle:
@@ -22,6 +25,10 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
+
+plugins:
+  - glightbox
 
 extra:
   social:
