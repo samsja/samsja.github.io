@@ -1,10 +1,4 @@
----
-hide:
-  - navigation
-  - toc
----
-
-# What I don’t like about chains of tough and why language is a bottleneck to efficient reasoning.
+# What I don’t like about chains of toughts and why language is a bottleneck to efficient reasoning.
 
 **20 may, 2023**
 
