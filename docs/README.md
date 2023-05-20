@@ -15,7 +15,7 @@ I am currently working at [Jina AI](https://jina.ai/) as a Senior MLE.
 
 ### Software:
 
-I am one of the main maintainers of [DocArray](https://github.com/docarray/docarray) and contribute to [Jina](https://github.com/jina-ai/jina). I maintain several other python and/or rust projects related. (Checkout my [github](https://github.com/samsja))
+I am one of the main maintainers of [DocArray](https://github.com/docarray/docarray) and contribute to [Jina](https://github.com/jina-ai/jina). I maintain several other python and/or rust projects related to Machine Learning (Checkout my [github](https://github.com/samsja))
 
 ### Published Research:
 
