@@ -19,7 +19,9 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
       primary: black
- 
+
+markdown_extensions:
+  - attr_list
 
 extra:
   social:

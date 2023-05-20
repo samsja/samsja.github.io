@@ -4,8 +4,11 @@ hide:
   - toc
 ---
 
-# What I don’t like about chains of tough and why language is a bottleneck to reasoning.
+# What I don’t like about chains of tough and why language is a bottleneck to efficient reasoning.
 
+**20 may, 2023**
+
+---
 
 What I don’t like about chains of tough (in its current form) and why language is a bottleneck to reasoning (in the way it is used in 2023 autoregressive LLM).
 
@@ -15,6 +18,10 @@ It has unlocked a lot of use cases that LLM (even instruct one) could not solve 
 
 As an engineer I do believe that COT will play a major role in converting current LLM capability into real world usage (and into money as well). Nevertheless I will in this blog post let my scientific self speak and explain why I believe that COT and the agent wave is mainly a hack of LLM to make them express reasoning in a counter intuitive and inefficient way.
 
+
+![image](einstein.png){: style="height:40%;width:40%"}
+
+[tweet](https://twitter.com/ylecun/status/1652183354370916354?s=20)
 
 ## I thought LLM can’t reason
 
@@ -26,10 +33,10 @@ At some point one of my colleagues started explaining that with the help of tool
 
 It requires the same amount of compute for a LLM to perform the two following task:
 
-* Pick the first 10 numbers greater than 10e5
-* Pick the first 10 prime numbers greater than 10e5
+* Pick the first 10 numbers greater than 100 000
+* Pick the first 10 prime numbers greater than 100 000
 
-PS: why greater than 10**5 ? Otherwise if I had asked for the 10 first prime numbers the model would have most likely remembered all of  them already.
+PS: why greater than 100 000 ? Otherwise if I had asked for the 10 first prime numbers the model would have most likely remembered all of  them already.
 
 Indeed LLM created a sentence by doing next token prediction, i.e. they predict the next token by computing forward pass over the entire (gigantic) network and compute attention between the different tokens (in a causal way each token look only at token from the past) and picking the most likely token according to its training statistical distribution.
 
@@ -68,7 +75,7 @@ Humans as well can show some reasoning ability without talking nor using inner s
 
 Okay, seems like it is possible to reason without inner speech. Why would it be faster ?
 
-Let’s take a look at this video : https://www.youtube.com/watch?v=rXABuzSoVOk where Lionel Messi uses the referee as an obstacle to dribble it’s opponent. 
+Let’s take a look at [this video](https://www.youtube.com/watch?v=rXABuzSoVOk) where Lionel Messi uses the referee as an obstacle to dribble it’s opponent. 
 
 It is quite easy to see that messi could not have used any inner speech reasoning to achieve this move:
 
@@ -104,9 +111,7 @@ LLMs are great powerful tools, but they won’t be the last solution to what eve
 
 Though I have to say it is impressive what we can do with LLN nowaday.
 
-let's finish with this tweet 
 
-https://twitter.com/ylecun/status/1652183354370916354?s=20
 
 
 
