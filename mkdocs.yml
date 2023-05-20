@@ -1,4 +1,6 @@
 site_name: Samsja 
+site_description: Blog post of Samsja
+site_url: https://samsja.github.io/
 theme:
   logo: assets/logo.png
   favicon: assets/logo.png
