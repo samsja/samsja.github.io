@@ -10,7 +10,7 @@ It has unlocked a lot of use cases that LLM (even instruct one) could not solve 
 As an engineer I do believe that COT will play a major role in converting current LLM capability into real world usage (and into money as well). Nevertheless I will in this blog post let my scientific self speak and explain why I believe that COT and the agent wave is mainly a hack of LLM to make them express reasoning in a inefficient way.
 
 
-![image](einstein.png){: style="height:40%;width:40%"}
+![image](einstein.png){: style="height:60%;width:60%"}
 
 [tweet](https://twitter.com/ylecun/status/1652183354370916354?s=20)
 
