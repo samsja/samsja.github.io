@@ -26,6 +26,7 @@ theme:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
 
 plugins:
   - glightbox
