@@ -1,0 +1,38 @@
+site_name: Samsja 
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: white
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: black
+ 
+
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/samsja
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/samsja19
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/sami-jaghouar-805505193/
+
+nav:
+  - About:
+    - README.md
+  - Blogs: 
+    - blogs.md
+
