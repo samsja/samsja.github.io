@@ -4,7 +4,11 @@ hide:
 ---
 # Posts
 
-### [Building a deep learning rig | part-1](blogs/rig/blog.md)
+### [Building a deep learning rig | part-2](blogs/rig/part_2.md)
+february 22 , 2024
+
+
+### [Building a deep learning rig | part-1](blogs/rig/part_1.md)
 february 03 , 2024
 
 
