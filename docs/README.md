@@ -9,7 +9,13 @@ hide:
 
 I am slightly obsessed with deep learning since a couple of years. Mainly coding in Python and Rust. 
 
-My research interest lies in Multi Modal machine Learning, self supervised learning and (like, I guess, everybody else now) LLM. Tho I do like programming language and optimized software in general.
+I am interested in:
+  * Efficient large language model
+  * Multi modality
+  * Self supervised learning in computer vision
+  * Programming language
+  * Squeezing performance out of hardware
+
 
 
 ## Work
