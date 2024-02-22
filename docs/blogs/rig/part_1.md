@@ -1,4 +1,4 @@
-# Building a deep learning rig, part-1
+# Building a deep learning rig | part-1
 
 **03 february, 2024**
 
@@ -7,7 +7,7 @@ I just got my hands on a mining rig with 3 rtx 3090 founder edition for the mode
 My plan is to transform it into a deep learning ring, to finetune and serve LLM, play with torch distributed with some MoE as well as doing a bit of independent research.
 
 
-![Minning rig](rig_0.jpg)
+![Mining rig](rig_0.jpg)
 
 
 ### Detailed:
