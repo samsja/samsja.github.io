@@ -11,8 +11,10 @@ I was hesitating between
 
 I end up choosing the second option, mainly because the price difference was not that hughes
 
+![gpu rig](rig_1.jpg)
 
-## Threadripper for the win
+
+## **Threadripper for the win**
 
 Threadripper have 48 pcie lines (Epyc cpu have 100+) which is enough for 4 gpu as well as nvme ssd and other card. They are not too expensive in second hand, especially first and second generation, so it was the obvious decision.
 
@@ -43,7 +45,7 @@ It is the most expensive thing I bought, let's try to fully utilize them now.
 
 I remember that two years ago my old company bought a similar setup for 20k, I am very happy on the price.
 
-## Assembling
+## **Assembling**
 
 I first tried with one gpu directly connected to the mobo (no extender) without any frame to check that everything was okay.
 
@@ -55,8 +57,11 @@ for the pcie extender, 30 cm is nice for the two gpu at the extreme position, bu
 
 I make sure to attached every wire to the frame with some zipper, the modular PSU helped a lot in reducing the amount of cable. I bought as well a small skateboard (at a DIY store) so that I can move the device when it is not used.
 
+![wire](rig_2.jpg)
+![wire](rig_3.jpg)
 
-## Installing software
+
+## **Installing software**
 
 I am a happy arch linux user, but here I was looking for stability, and since I don't need the fancy up to date package from the aur repo nor my usual i3 setup, I went with installing ubuntu 22.04 server without UI. 
 
@@ -68,7 +73,7 @@ and, ... , it did not work ...
 
 The training keep hanging forever after the three process got initialized 
 
-## Debugging 
+## **Debugging** 
 
 What was not working was the peer 2 peer communication. Using [`NCCL_P2P_DISABLE`](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html) allowed the training to start but with terrible performance ... basically the bandwidth without peer to peer is punitively slow.
 
@@ -87,7 +92,7 @@ and, ..., it worked !!
 I won't lie I got very scared, but now performance for DDP training 3 time faster that on gpu, meaning that they are just no overhead
 to use 3 GPU in this setting.
 
-## Sound and watt limit
+## **Sound and watt limit**
 
 I limit the power of my cards to 285w (instead of 350w), it apparently is negligible on performance (couple of percentage slower) but it is significantly better. First I take less risk with the 750W psu. I should have almost 180W of margin. Tho it might not be enough, 3090 are know to create power spike to 600w, so if both of them do it at the same time it got problematic. I am waiting for it to happened before changing my psu.
 
@@ -98,7 +103,7 @@ When the machine is idle, the GPU fan are not turning nor the one from the plat 
 Open air do help a lot with temperature, att full loads the temperature of the GPU did not go over 70 degrees and 104 for the vram temp  (used this [tool](https://github.com/olealgoritme/gd) for measure). Since the GPU blow air on the right side, the GPU at the very right is the hotter. 104 for the vram is still okay, in the sense that it does not throttle performance (will start at 110). Tho ideally I would repast the thermal of the card, it apparently could get 10 degree less on the founder edition.
 
 
-## Final thought
+## **Final thought**
 
 I am very happy with the setup, especially for the price (2.4k euros). I am planning on adding my 4th card as well at some point.
 
@@ -109,3 +114,5 @@ Building a machine at home is a nice project, especially because I like screw an
 Tho, if someone read this post thinking that it will save him a lot of money, think about it twice. Electricity is expensive (at least in europe). This is all second hand hardware, things will break at some point. If I were to run a company that need a bit of GPU, I would definitely avoid all of the hassle of waiting for piece to arrive, thinking about compatibility and debugging the bios. I would either grab some prebuilt deep learning machine or just rent A100 on cloud.
 
 The real argument for buying GPU at home is that now that I invest that much money in a project I have to spent time on it, so it will force to find nice way to maximize this compute. This is very opposite to the mentality of using cloud where you pay per hour, you optimize for using GPUs as less as possible. There is a good learning in building a machine, especially around the reasoning around bandwidth.
+
+![gpu rig](rig_4.jpg)
