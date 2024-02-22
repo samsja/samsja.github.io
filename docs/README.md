@@ -34,3 +34,5 @@ I am one of the main maintainers of [DocArray](https://github.com/docarray/docar
 * [tweeter](https://twitter.com/samsja19)
 * [linkedin](https://www.linkedin.com/in/sami-jaghouar-805505193/)
 * [github](https://github.com/samsja)
+
+You can reach to me via mail: sami.jaghouar@gmail.com
