@@ -11,3 +11,9 @@ poetry install
 poetry run mkdocs serve
 ```
 
+
+## How to deploy
+
+```bash
+mkdocs gh-deploy
+```

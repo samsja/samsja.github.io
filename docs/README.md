@@ -7,11 +7,20 @@ hide:
 
 ![Image title](assets/logo.png){ align=right }
 
-I am Samsja a Machine Learning Engineer slightly obsessed with deep learning since a couple of years. Mainly coding in Python and Rust, building software for machine learning. 
+I am slightly obsessed with deep learning since a couple of years. Mainly coding in Python and Rust. 
 
-My research interest lies in Multi Modal machine Learning, self supervised learning and (like, I guess, everybody else now) LLM.
+I am interested in:
+  * Efficient large language model
+  * Multi modality
+  * Self supervised learning in computer vision
+  * Programming language
+  * Squeezing performance out of hardware
 
-I am currently working at [Jina AI](https://jina.ai/) as a Senior MLE.
+
+
+## Work
+
+I am currently training multi lingual LLM at [Nyonic](https://www.nyonic.ai/)
 
 ### Software:
 
@@ -19,7 +28,7 @@ I am one of the main maintainers of [DocArray](https://github.com/docarray/docar
 
 ### Published Research:
 
-* 2022: [Improving traffic sign recognition by active search](https://arxiv.org/abs/2111.14426) at [GCPR](https://link.springer.com/chapter/10.1007/978-3-031-16788-1_36) (German Conference on Pattern Recognition). Research conducted while working at [Zenseact](https://zenseact.com/)
+* 2022: [Improving traffic sign recognition by active search](https://arxiv.org/abs/2111.14426) at [GCPR](https://link.springer.com/chapter/10.1007/978-3-031-16788-1_36) (German Conference on Pattern Recognition). Research conducted while working at [Zenseact](https://zenseact.com/) at the edges of image retrieval and active learning.
 
 
 ### Socials
