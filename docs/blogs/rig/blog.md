@@ -6,6 +6,10 @@ I just got my hands on a mining rig with 3 rtx 3090 founder edition for the mode
 
 My plan is to transform it into a deep learning ring, to finetune and serve LLM, play with torch distributed with some MoE as well as doing a bit of independent research.
 
+
+![Minning rig](rig_0.jpg)
+
+
 ### Detailed:
 
 * rtx 3090 (x3)
