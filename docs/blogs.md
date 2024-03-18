@@ -4,6 +4,10 @@ hide:
 ---
 # Posts
 
+### [Even more dense model](blogs/rig/part_2.md)
+mars 18 , 2024
+
+
 ### [Building a deep learning rig | part-2](blogs/rig/part_2.md)
 february 22 , 2024
 
