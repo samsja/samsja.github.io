@@ -4,6 +4,9 @@ hide:
 ---
 # Posts
 
+### [Weight sharing is the inverse of MoE](blogs/moe_is_the_inverse_of_weight_sharing/blog.md)
+june 22 , 2024
+
 ### [Building a deep learning rig | part-2](blogs/rig/part_2.md)
 february 22 , 2024
 
