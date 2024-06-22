@@ -6,19 +6,20 @@ hide:
 
 ![Image title](assets/logo.png){ align=right }
 
-I am slightly obsessed with deep learning since a couple of years. Mainly coding in Python and Rust, mostly interested in:
+I am slightly obsessed with deep learning and ai. Mainly coding in Python and Rust and mostly interested in:
 
-* Efficient large language model
+* Efficient deep learning
 * Multi modality
 * Self supervised learning in computer vision
 * Programming language
 * Squeezing performance out of hardware
 
 
-
 ## **Work**
 
-I am currently training multi lingual LLM at [Nyonic](https://www.nyonic.ai/)
+I am currently as research engineer at [Prime Intellect](https://www.primeintellect.ai/), working on decentralized and distributed training.
+
+I was training multi lingual LLM at [Nyonic](https://www.nyonic.ai/) before: [paper](https://arxiv.org/abs/2404.15702) and doing open source at [Jina AI](https://jina.ai/)
 
 ## **Software**:
 
