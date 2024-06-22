@@ -30,14 +30,24 @@ The model was trained for around 1T tokens on douzens of interconnected nodes of
 
 ### preventing instability
 
+### datamix 
+
 ### multi plexer
 
-### datamix 
 
 ### evaluation piplein
 
 
 ## What I would do differently
+
+As any engineering process, even more when it is research driven, it was not perfect and we did mistake when training our LLM. 
+
+### Evaluation pipeline.
+
+Evaluation pipeline is crucial to train a good model, don't wait until your model is trained to evaluate it.
+Make the evaluation pipeline, fast. You cannot wait one week for your model evaluation to come back.
+
+Make it fast. Implement an okay fast inference pipeline on which you can plug your evaluation. Distil your evaluation dataset into a smaller one that give you a good proxy for the real performance. Include in training model evaluation. I am not talking about tracking the loss or the perplexity. Include model inference evaluation during training on out of distrubton dataset. 
 
 
 need short spike of compute, cite prime intelect. 
