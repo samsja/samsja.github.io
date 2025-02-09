@@ -354,8 +354,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    Installation
+  <a href="#why" class="md-nav__link">
+    why
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what" class="md-nav__link">
+    what
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how" class="md-nav__link">
+    how
   </a>
   
 </li>
@@ -376,6 +390,7 @@
 
 
 <h1 id="local-alternative-to-cursor-ctrl-k">Local alternative to cursor ctrl k</h1>
+<h2 id="why">why</h2>
 <p>I have been using cursor for a while now, it's a great product wiht a lot of functionality.</p>
 <p>I am a heavy terminal user but I have a bad memory for terminal command, I think some command line argument of tool like <code>scp</code>, <code>tar</code> or <code>docker</code>  are just unlearnable for sane human. Hopefully llm are good at memorizing stuff. One of my favorite cursor features is to be able to prompt model to interact direclty with the terminal. This is done by pressing ctrl-k in the terminal, write a query and execute the proposed command. </p>
 <p><a class="glightbox" href="../cursor.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="cursor ctrl k" src="../cursor.png" /></a></p>
@@ -388,13 +403,14 @@
 <p>So I figure out that both problem would be fixed if I could just call a small model from within my terminal. </p>
 <p>One can argue than even though small model are faster to run locally their ratio latency/smartness is really bad compare to calling an api. </p>
 <p>Well this is true for most usecase, but I would argue that remenbering terminal command and argument is not that hard for a model. </p>
+<h2 id="what">what</h2>
 <p>So let's try to setup <a href="https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF">Qwen coder2.5 0.5b</a> locally and use it from the terminal :)</p>
 <p>I am gonna use the <a href="https://github.com/simonw/llm">llm</a> cli which makes everything super easy. Yeah this blog post is just a wrapper around <a href="https://github.com/simonw/llm">llm</a> documentation.</p>
 <p>Before I show you how to install it, lets look at how the end usage look like</p>
 <p><a class="glightbox" href="../llmk_torch.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="llmk" src="../llmk_torch.png" /></a></p>
 <p>Pretty nice, short, work in any terminal, and it is fast. </p>
 <p>PS: I am using qwen 0.5b but one could you any llama.cpp model as well as OpenAI or claude model</p>
-<h2 id="installation">Installation</h2>
+<h2 id="how">how</h2>
 <p>First you need to install <a href="https://github.com/simonw/llm">llm</a></p>
 <p>I recommand using <a href="https://github.com/astral-sh/uv">uv</a> as it is the fastest way to install cli tool and manage python.</p>
 <p>if you don't have uv installed, you can install it with </p>
