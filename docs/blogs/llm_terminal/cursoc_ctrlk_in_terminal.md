@@ -74,35 +74,32 @@ llm install llm-gguf
 
 Let's now download the whole qwen family. (Feel free to only download 0.5b if you just want to tests)
 
-```bash
 
-```
+```bash
 llm gguf download-model https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-GGUF/resolve/main/qwen2.5-coder-0.5b-instruct-fp16.gguf --alias qwen-coder-2.5-0.5b --alias qw0.5
 ```
 
-```
+```bash
 llm gguf download-model https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF/resolve/main/qwen2.5-coder-1.5b-instruct-q8_0.gguf --alias qwen-coder-2.5-1.5b --alias qw1.5b
 ```
 
-```
+```bash
 llm gguf download-model https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF/resolve/main/qwen2.5-coder-3b-instruct-q8_0.gguf --alias qwen-coder-2.5-3b --alias qw3b
 ```
 
-```
+```bash
 llm gguf download-model https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/resolve/main/qwen2.5-coder-7b-instruct-q8_0.gguf --alias qwen-coder-2.5-7b --alias qw7b
 ```
 
 To test that the models are properly downloaded you can do
 
-```
+```bash
 llm -m qw0.5 "hello"
 ```
 
 you can list model as well using 
 
-```
-llm models
-
+```bash
 llm models
 OpenAI Chat: gpt-4o (aliases: 4o)
 OpenAI Chat: gpt-4o-mini (aliases: 4o-mini)
@@ -137,20 +134,20 @@ Let's now setup the template cmd with a system prompt.
 
 For linux (ubuntu) user
 
-```
+```bash
 llm --system 'reply with ubuntu terminal commands only, no extra information' --model qw0.5 --save cmd
 ```
 
 for mac
 
 
-```
+```bash
 llm --system 'reply with ubuntu terminal commands only, no extra information' --model qw0.5 --save cmd
 ```
 
 At this stage you should be able to do
 
-```
+```bash
 >>> llm -t cmd "git clone torch"
 git clone https://github.com/pytorch/pytorch.git
 ```
@@ -160,7 +157,7 @@ but I prefer to have even a shorter alias as I want this to be quick to type
 
 Last step is to add into your .bashrc or .zshrc (or whatever you use)
 
-```
+```bash
 alias llmk='f() { llm -t cmd "\"$*\""; }; f'
 ```
 
