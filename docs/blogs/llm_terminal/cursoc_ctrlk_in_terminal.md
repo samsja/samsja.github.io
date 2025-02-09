@@ -1,5 +1,7 @@
 # Local alternative to cursor ctrl k 
 
+## why 
+
 I have been using cursor for a while now, it's a great product wiht a lot of functionality.
 
 
@@ -21,6 +23,9 @@ One can argue than even though small model are faster to run locally their ratio
 
 Well this is true for most usecase, but I would argue that remenbering terminal command and argument is not that hard for a model. 
 
+
+## what
+
 So let's try to setup [Qwen coder2.5 0.5b](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF) locally and use it from the terminal :)
 
 I am gonna use the [llm](https://github.com/simonw/llm) cli which makes everything super easy. Yeah this blog post is just a wrapper around [llm](https://github.com/simonw/llm) documentation.
@@ -37,7 +42,7 @@ Pretty nice, short, work in any terminal, and it is fast.
 PS: I am using qwen 0.5b but one could you any llama.cpp model as well as OpenAI or claude model
 
 
-## Installation
+## how
 
 
 First you need to install [llm](https://github.com/simonw/llm)

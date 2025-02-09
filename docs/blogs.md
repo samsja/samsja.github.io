@@ -3,6 +3,8 @@ hide:
   - toc
 ---
 # Posts
+### [Local alternative to cursor ctrl k](blogs/llm_terminal/cursoc_ctrlk_in_terminal.md)
+february 09, 2025
 
 ### [Weight sharing is the inverse of MoE](blogs/moe_is_the_inverse_of_weight_sharing/blog.md)
 june 22 , 2024
