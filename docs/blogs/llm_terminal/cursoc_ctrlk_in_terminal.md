@@ -27,7 +27,7 @@ I am gonna use the [llm](https://github.com/simonw/llm) cli which makes everythi
 
 Before I show you how to install it, lets look at how the end usage look like
 
-![llmk](llmk.png)
+![llmk](llmk_torch.png)
 
 
 Pretty nice, short, work in any terminal, and it is fast. 
