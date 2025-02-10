@@ -3,6 +3,10 @@ hide:
   - toc
 ---
 # Posts
+
+### [Time to upgrade your terminal stack](blogs/terminal/time_to_upgrade_your_terminal_stack.md)
+february 09, 2025
+
 ### [Local alternative to cursor ctrl k](blogs/llm_terminal/cursoc_ctrlk_in_terminal.md)
 february 09, 2025
 
