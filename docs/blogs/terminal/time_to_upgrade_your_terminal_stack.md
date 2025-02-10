@@ -13,9 +13,9 @@ No, nobody care about the tool you use. They are amazing engineers working on wi
 
 this blog post will be a list of tool I am using to replace common bash command.
 
-## startship
+## starship
 
-[startship](https://github.com/starship/starship) is an amazing ui tool. It just look goreous, extremly usefull, and using terminal without it feels like being naked in the street.
+[starship](https://github.com/starship/starship) is an amazing ui tool. It just look goreous, extremly usefull, and using terminal without it feels like being naked in the street.
 
 
 ![starship](starship.png)
