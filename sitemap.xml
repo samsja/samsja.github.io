@@ -2,37 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://samsja.github.io/</loc>
-         <lastmod>2025-02-09</lastmod>
+         <lastmod>2025-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samsja.github.io/blogs/</loc>
-         <lastmod>2025-02-09</lastmod>
+         <lastmod>2025-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samsja.github.io/blogs/cot/blog/</loc>
-         <lastmod>2025-02-09</lastmod>
+         <lastmod>2025-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samsja.github.io/blogs/llm_terminal/cursoc_ctrlk_in_terminal/</loc>
-         <lastmod>2025-02-09</lastmod>
+         <lastmod>2025-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samsja.github.io/blogs/moe_is_the_inverse_of_weight_sharing/blog/</loc>
-         <lastmod>2025-02-09</lastmod>
+         <lastmod>2025-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samsja.github.io/blogs/rig/part_1/</loc>
-         <lastmod>2025-02-09</lastmod>
+         <lastmod>2025-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samsja.github.io/blogs/rig/part_2/</loc>
-         <lastmod>2025-02-09</lastmod>
+         <lastmod>2025-02-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samsja.github.io/blogs/terminal/time_to_upgrade_your_terminal_stack/</loc>
+         <lastmod>2025-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
