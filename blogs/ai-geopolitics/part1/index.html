@@ -10,7 +10,7 @@
       
       
       
-        <link rel="canonical" href="https://samsja.github.io/blogs/terminal/time_to_upgrade_your_terminal_stack/">
+        <link rel="canonical" href="https://samsja.github.io/blogs/ai-geopolitics/part1/">
       
       
       
@@ -19,7 +19,7 @@
     
     
       
-        <title>Its time to update your terminal stack - Samsja</title>
+        <title>Part1 - Samsja</title>
       
     
     
@@ -81,11 +81,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#its-time-to-update-your-terminal-stack" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -116,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Its time to update your terminal stack
+              Part1
             
           </span>
         </div>
@@ -344,65 +339,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#intro" class="md-nav__link">
-    intro
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#starship" class="md-nav__link">
-    starship
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#atuin" class="md-nav__link">
-    Atuin
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bat" class="md-nav__link">
-    bat
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exa" class="md-nav__link">
-    exa
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#outro-1-rust" class="md-nav__link">
-    outro 1: rust
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#outro-2-ai" class="md-nav__link">
-    outro 2: AI
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -417,50 +353,41 @@
                   
 
 
-<h1 id="its-time-to-update-your-terminal-stack">Its time to update your terminal stack</h1>
-<h2 id="intro">intro</h2>
-<p>If you still using bash without nice formatting, ls, cat, ctrl-r, ... you are ngmi. They are nice modern alternatives nowdays that make life easier.</p>
-<blockquote>
-<p>Are I am really ngmi if I don't have this tools ?</p>
-</blockquote>
-<p>No, nobody care about the tool you use. They are amazing engineers working on windows doing everything with their mouse and they are people spending 80% of their time ricing their arch linux setup with fancy window manager but don't know how to code</p>
-<p>this blog post will be a list of tool I am using to replace common bash command.</p>
-<h2 id="starship">starship</h2>
-<p><a href="https://github.com/starship/starship">starship</a> is an amazing ui tool. It just look goreous, extremly usefull, and using terminal without it feels like being naked in the street.</p>
-<p><a class="glightbox" href="../starship.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="starship" src="../starship.png" /></a></p>
-<p>just look at this screenshot, so many information, my python version, my python env, the state of my git, ...</p>
-<p>I would be blind if I had not the git info to be honest, like how do you even work with git without visually knowing which branch you are working on or if you are in a dirty state ?</p>
-<h2 id="atuin">Atuin</h2>
-<p><a href="https://github.com/atuinsh/atuin">Atuin</a> is a modern replacment for searching in your command history, a.k.a ctrl-r or arrow up. 
-It's beautiful, more expressive that traditionnal ctrl-k, its beautiful, it looks proffesional, it's beautiful. Ah and the real killer feature beyond being beautiful is that you can sync database between multiple machine. If you are not sold its because you don't like progress.</p>
-<p><a class="glightbox" href="../atuin.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="atuin" src="../atuin.png" /></a></p>
-<p>one caveat is atuin is that it's more verbose ans slighty slower than traditionnal history search especially when accessing via a remote machine. </p>
-<p>I am only using atuin with ctrl-r and use default behavior for arrow up. </p>
-<pre><code class="language-bash">eval &quot;$(atuin init zsh --disable-up-arrow)&quot;
-</code></pre>
-<p>If you are a heavy ctrl-r using probably swap and use atuin with arrow up while keeping ctrl-r fast.</p>
-<h2 id="bat">bat</h2>
-<p><a href="https://github.com/sharkdp/bat">bat</a> is a modern replacement for cat. It mainly add syntax highlighting with color the ability to search like in vim with <code>/</code>.</p>
-<p>Its quite customisable as well and the default option output line number, which make it hard to copy paste. I personnaly prefer to have</p>
-<pre><code class="language-bash">alias cat=&quot;bat --style=plain&quot;
-</code></pre>
-<p>as my cat alias</p>
-<h2 id="exa">exa</h2>
-<p><a href="https://github.com/ogham/exa">exa</a> is a modern replacement for ls. Yeah who would have tought that a command as simple as ls could be made better ? Exa basiscally add color highlighting which seems like a
-a simple feature but it is actually great.</p>
-<p><a class="glightbox" href="../exa.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="exa" src="../exa.png" /></a></p>
-<p>I am defaulting to the following alias</p>
-<pre><code class="language-bash">alias ls=&quot;exa&quot;
-alias ll=&quot;exa -lal&quot;
-</code></pre>
-<h2 id="outro-1-rust">outro 1: rust</h2>
-<p>you would have notice that most of this tool are written in rust. Does it matter ? No. It just that people write this tool in their free time and doing rust during your free time is fun.
-You could do nice terminal tooling in any language. Even python.</p>
-<h2 id="outro-2-ai">outro 2: AI</h2>
-<p>Terminal have been around for a LONG time. But developper tool for terminal are just getting started (at least that's my perception).
-Terminal are a bit like the radio, everybody would have bet that it would have died but turns out people like it even more now (at least that's my perception).</p>
-<p>Anyway my point is that terminal tool will be even more relevant with AI, so expect to see the next version of this blog post with a shiton of AI terminal tool. </p>
-<p>First relevant tool in this <a href="https://samsja.github.io/blogs/llm_terminal/cursoc_ctrlk_in_terminal/">blog post:</a></p>
+  <h1>Part1</h1>
+
+<ul>
+<li>
+<p>there is as strng vibe shift at oai right now</p>
+</li>
+<li>
+<p>there is no research moat, oai, deepmind and antrohopic might have set back agi by couple of years with their closed source stratey, they start to realize it since deepseek</p>
+</li>
+</ul>
+<p>Research is not a moat. The countraraia agument would be that release open source research is actually a great way to avoid state and smaller player to emerge because why would you 
+spend so much time in foundamental work if everything is already open source.</p>
+<p>What is a moat in ai :</p>
+<ul>
+<li>infrastructure. You can train or run model without compute and knowledge how to operate them.</li>
+<li>Integration. See midjourney, pritting unlimited money with a perfect execution and adoption.</li>
+</ul>
+<p>Google has a moat, infra, intregation into the whole google stack, ... They have a lot to lose as well with the search buisnes that could be destroy by AI.</p>
+<p>what do to with 100B euro in ai? </p>
+<ul>
+<li>
+<p>commodotize research breaktrough. Which usually mean founding open source research. We don't do open source because open source is ethic, we do because its economical. But its not awlaus
+economical. Mistral for instance has tried but they eventually converge to a small open source model and large closed source model. One need to create an envuornment were open source research and software is 
+ecnomically viable. Open source is economicall at scale, why duplicating effort all over players if they could all win by sharing. This does not apply if you only have one player tho.</p>
+</li>
+<li>
+<p>Spend a shiton of money on INFRA INFA INFAR, buy compute, its as trivial as building rails back in the days. </p>
+</li>
+<li>
+<p>integrate everywhere, all the field</p>
+</li>
+<li>
+<p>let kids run innovation and create insentive for ppl with stron agency to do god work. Drop everything that was working 50 years ago but is note anymore, innovation has drop a generation, if you rely on people with experience in the last two decades there is not no way to win. Diploma credentials are probably useless as well.</p>
+</li>
+</ul>
 
 
 
